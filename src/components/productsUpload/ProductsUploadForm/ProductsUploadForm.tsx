@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 
 import { useState } from "react";
-import { useProductsUpload } from "@hooks/uploadProducts/useProductsUpload";
+import { useProductsUpload } from "@hooks/uploadProducts/useProductsUpload/useProductsUpload";
 
 export default function ProductsUploadForm() {
   const [selectedFile, setSelectedFile] = useState(null);

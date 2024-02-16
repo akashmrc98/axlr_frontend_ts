@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router";
-import { removeToken } from "../../config/jwt";
+import { removeToken } from "@config/jwt";
 
 import { useProductUploadStore } from "@store/useProductsUploadStore";
 import { UploadProductsApi } from "@api/uploadProducts/uploadProductsApi";

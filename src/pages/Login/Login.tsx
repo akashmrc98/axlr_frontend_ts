@@ -11,7 +11,7 @@ import {
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import { removeToken, setToken } from "../config/jwt";
+import { removeToken, setToken } from "config/jwt";
 
 export default function Login() {
   const toast = useToast();

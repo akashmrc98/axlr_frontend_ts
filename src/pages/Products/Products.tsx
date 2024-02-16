@@ -2,17 +2,17 @@ import { Box, Divider, Flex, Grid } from "@chakra-ui/react";
 
 import Navbar from "@components/common/Navbar";
 
-import ProductsLoader from "@components/products/ProductsLoader";
-import ProductsSearchForm from "@components/products/ProductsSearchForm";
-import ProductsPagination from "@components/products/ProductsPagination";
-import ProductsFiltersForm from "@components/products/ProductsFilterForm";
-import ProductCountComponent from "@components/products/ProductCountComponent";
-import ProductsListComponent from "@components/products/ProductsListComponent";
-import ProductsSortingComponent from "@components/products/ProductsSortingComponent";
-import ProductsCategoryComponent from "@components/products/ProductsCategoryComponent";
+import ProductsLoader from "@components/products/ProductsLoader/ProductsLoader";
+import ProductsSearchForm from "components/products/ProductsSearchForm/ProductsSearchForm";
+import ProductsPagination from "@components/products/ProductsPagination/ProductsPagination";
+import ProductsFiltersForm from "@components/products/ProductsFilterForm/ProductsFilterForm";
+import ProductCountComponent from "@components/products/ProductCountComponent/ProductCountComponent";
+import ProductsListComponent from "@components/products/ProductsListComponent/ProductsListComponent";
+import ProductsSortingComponent from "@components/products/ProductsSortingComponent/ProductsSortingComponent";
+import ProductsCategoryComponent from "@components/products/ProductsCategoryComponent/ProductsCategoryComponent";
 
-import { useProductsQuery } from "@hooks/products/useProductsQuery";
-import { useProductsPaginationQuery } from "@hooks/products/useProductsPaginationQuery";
+import { useProductsQuery } from "@hooks/products/useProductsQuery/useProductsQuery";
+import { useProductsPaginationQuery } from "@hooks/products/useProductPaginationQuery/useProductsPaginationQuery";
 
 export default function Products() {
   const products = useProductsQuery();

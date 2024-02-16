@@ -2,12 +2,12 @@ import { ChakraProvider } from "@chakra-ui/react";
 
 import { theme } from "./config/theme";
 
-import Login from "./pages/Login";
-import NotFound from "./pages/NotFound";
+import Login from "./pages/Login/Login";
+import NotFound from "./pages/NotFound/NotFound";
 import Products from "./pages/Products/Products";
 import ProductsUpload from "./pages/ProductsUpload/ProductsUpload";
 
-import ProtectedRoute from "./components/common/ProtectedRoute";
+import ProtectedRoute from "@components/common/ProtectedRoute";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
